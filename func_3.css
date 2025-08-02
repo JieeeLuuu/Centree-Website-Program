@@ -30,26 +30,21 @@ h1 {
 }
 /* The End Of Navigation */
 
-/* The introduction */
-.content_1 {
-  background-color: white;
-  border: 2px solid;
-  border-radius: 6px;
-  box-shadow: 1px 2px 5px #8BC88A;
+section {
   align-items: center;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.content_2 {
+p {
   background-color: white;
+  margin: 0 30%;
   border: 2px solid;
-  border-radius: 6px;
+  border-radius: 12px;
   box-shadow: 1px 2px 5px #8BC88A;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -60,4 +55,3 @@ h1 {
   margin: 0 50%;
   margin: 15% 50% 0 50%;
 }
-
