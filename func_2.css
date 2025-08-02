@@ -1,4 +1,4 @@
-/* The Top's Navigation Guide that copy for evey page. Copy IT */
+/* The Top's Navigation Guide that copy for evey page. */
 html {
   height: 100%;
   width: 100%;
@@ -30,22 +30,7 @@ h1 {
 }
 /* The End Of Navigation */
 
-#CenTree {
-  font-size: 2500%;
-  padding: 0 15%;
-  display: flex;
-  justify-content: center;
-}
 
-#introduction {
-  background-color: white;
-  margin: 0 30%;
-  border: 2px solid;
-  border-radius: 12px;
-  box-shadow: 1px 2px 5px #8BC88A;
-  display: flex;
-  justify-content: center;
-}
 
 /* Moving Button. Copy IT */
 .to_the_next_page {
