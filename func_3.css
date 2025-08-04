@@ -47,6 +47,27 @@ p {
   justify-content: center;
 }
 
+.func_3_section_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.func_3_section_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.func_3_section_3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#func_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+}
+
 
 /* Moving Button. Copy IT */
 .to_the_next_page {
