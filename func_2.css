@@ -57,7 +57,6 @@ h1 {
 .to_the_next_page {
   length: 30px;
   width: 30px;
-  margin: 0 50%;
-  margin: 15% 50% 0 50%;
+  margin: 100px 50% 0 50%;
 }
 

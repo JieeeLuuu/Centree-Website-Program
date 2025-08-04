@@ -47,6 +47,13 @@ p {
   justify-content: center;
 }
 
+#func_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+}
+
+
 .func_3_section_1 {
   display: flex;
   flex-direction: column;
@@ -62,17 +69,11 @@ p {
   flex-direction: column;
 }
 
-#func_3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;;
-}
 
 
 /* Moving Button. Copy IT */
 .to_the_next_page {
   length: 30px;
   width: 30px;
-  margin: 0 50%;
-  margin: 15% 50% 0 50%;
+  margin: 100px 50% 0 50%;
 }
