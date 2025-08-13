@@ -12,67 +12,100 @@
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="func_3.css" rel="stylesheet" type="text/css" />
   <!-- Stop Copy! Remember to change the css name! -->
   
 </head>
 <body>
-  <!-- The top's navigation guide. Copy IT!-->
-  <section class="top_navigaion">
-    <div><button id="navigation"><a href="#">a</a></button>
-    </div>
-    <div>
-      <h1>CenTree</h1>
-    </div>
-    <div><img src="#" alt="logo" /></div>
-    <div><button><a href="#">Home</a></button></div>
-    <div><button><a href="#">Func 2</a></button></div>
-    <div><button><a href="#">Func 3</a></button></div>
-    <div><button><a href="#">Func 4</a></button></div>
-  </section>
-
-
   
-  <section class="func_3_section_1">
-    <div class="image">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyi8NrfyjwJ1xOOY9JGQnRUX2gNeGv_ioVw&s"
-        alt="A photo" />
+  <!-- 优化菜单栏 -->
+  <nav id="navbar" class="navbar navbar-expand-lg sticky-top ">
+    <div class="container-fluid">
+      <!-- Icon button -->
+      <button class="navbar-toggler d-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand Name -->
+      <a class="navbar-brand" href="#">
+        CenTree
+        <img id="logo" src="Group 3.svg" alt="Logo" width="50" height="50">
+      </a>
+
+      <!-- Menu -->
+      <div class="col align-items-stretch justify-content-between">
+        <div class="collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="func_2.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="func_3.html">Business Page</a>
+            </li>
+            <li class="nav-item">
+             <a id="mode" class="btn" href="#" data-mode-type="orginal mode"><i class="bi bi-brightness-high-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </div>
-    <div class="content">
-      <p>This is a paragraph, but I didn't think about the content yet. By the way, the image is just for case.</p>
+  </nav>
+  <!-- 菜单栏优化结束 -->
+
+  <!-- 开始介绍 -->
+  <section id="one" class="text-center">
+    <div class="container min-vh-100 align-items-center">
+      <div class="row justify-content-center">
+        <div class="card col-8 text-center c_one">
+          <h3>Business Introduction - CenTree</h3>
+          <p class="fs-4">
+            <br>
+            CenTree is a social meida platform that focuses on orginal works. Our mession is to protect and connect every original creators. We believe that every creator has similar creative passion, but different ways and styles, just like every leaves on a tree.
+          </p>
+        </div>
+        <div class="card col-4 text-center c_two">
+          <h3>Color Plate</h3>
+          <br>
+          <img src="color palette.png" alt="color plate">
+        </div>
+        <div class="card col-4 text-center c_three">
+          <h3>Font</h3>
+          <br>
+          <p class="MaShanZheng fs-4">
+            Ma Shan Zheng
+          </p>
+          <img src="font_Ma.png" alt="font">
+          <p class="Aladin fs-4">
+            Aladin
+          </p>
+          <img src="font_Al.png" alt="font">
+        </div>
+      </div>
+      <div class="design_mockup text-center">
+        <br>
+        <br>
+        <p class="fs-2 text-center"">Design Wireframes</p>
+        <img src="Login Page.png" alt="wireframes">
+        <img src="Home Page.png" alt="wireframes">
+        <img src="Post Page.png" alt="wireframes">
+      </div>
     </div>
+
+    <a href="index.html" class="btn justify-content-center"><i class="bi bi-chevron-down"></i></a>
   </section>
-
-  <section id="func_3">
-    <section class="func_3_section_2">
-      <div class="image">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyi8NrfyjwJ1xOOY9JGQnRUX2gNeGv_ioVw&s"
-          alt="A photo" />
-      </div>
-     <div class="content">
-        <p>This is a paragraph, but I didn't think about the content yet. By the way, the image is just for case.</p>
-      </div>
-    </section>
-  
-   <section class="func_3_section_3">
-      <div class="image">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyi8NrfyjwJ1xOOY9JGQnRUX2gNeGv_ioVw&s"
-          alt="A photo" />
-      </div>
-      <div class="content">
-        <p>This is a paragraph, but I didn't think about the content yet. By the way, the image is just for case.</p>
-      </div>
-    </section>
-  </section>
-
-
   
 
-  <!-- A Button From "Home" Page to "Func 2" Page. Copy IT -->
-  <button class="to_the_next_page"><a href="index.html">v</a></button>
+
+  <!-- The END. Copy IT! Remember to change the js file name!-->
+  <script src="func_3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <!-- Stop Copy! -->
 </body>
 </html>

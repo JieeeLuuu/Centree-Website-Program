@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>CenTree Website Program</title>
+  <title>KKCF Coding Fellowship Final Website Program - Home</title>
   <!-- Important Links! Copy IT! -->
   <style>
   </style>
@@ -12,33 +12,72 @@
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <!-- Stop Copy! Remember to change the css name! -->
 </head>
 
 <body>
-  <!-- The top's navigation guide. Copy IT -->
-  <section class="top_navigaion">
-    <div><button id="navigation"><a href="#">a</a></button></div>
-    <div>
-      <h1>CenTree</h1>
+  <!-- 优化菜单栏 -->
+  <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <!-- Icon button -->
+      <button class="navbar-toggler d-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand Name -->
+      <a class="navbar-brand" href="#">
+        CenTree
+        <img id="logo" src="Group 3.svg" alt="Logo" width="50" height="50">
+      </a>
+     
+      <!-- Menu -->
+      <div class="col align-items-stretch justify-content-between">
+        <div class="collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="func_2.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="func_3.html">Business Page</a>
+            </li>
+            <li class="nav-item">
+             <a id="mode" class="btn" href="#" data-mode-type="orginal mode"><i class="bi bi-brightness-high-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      
+      </div>
     </div>
-    <div><img src="#" alt="logo" /></div>
-    <div><button><a href="#">Home</a></button></div>
-    <div><button><a href="#">Func 2</a></button></div>
-    <div><button><a href="#">Func 3</a></button></div>
-    <div><button><a href="#">Func 4</a></button></div>
-  </section>
+  </nav>
+  <!-- 菜单栏优化结束 -->
 
-  <!-- The Biggest Brand Name -->
-  <h1 id="CenTree">CenTree</h1>
+  <!-- 漂亮的大写标题优化-->
+  <div id="Home">
+    <div class="container text-center">
+      <div class="row align-items-center min-vh-100">
+        <h1 id="title" class="fw-bold">Centree</h1>
+        <img id="big_one" src="Centree logo orginal_2.png" alt="Logo">
+        <div class="card">
+          <p class="fs-4">
+            Hello! Welcome to my website! Enjoy it!
+          </p>
+          
+          <p class="fs-5">
+            （（（oo(0W0)oo）））
+          </p>
+        </div>
+        <!-- go to the next page -->
+        <a href="func_2.html" class="btn"><i class="bi bi-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- 漂亮的大写标题优化结束 -->
 
-  <!-- The Introduction -->
-  <text id="introduction">This is an introduction, and I didn't think about the content yet.</text>
-
-  <!-- A Button From "Home" Page to "Func 2" Page. Copy IT -->
-  <button class="to_the_next_page"><a href="func_2.html">v</a></button>
 
   <!-- The END. Copy IT! Remember to change the js file name!-->
   <script src="script.js"></script>
